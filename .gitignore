@@ -1,2 +1,115 @@
 *.idea/
+
+# === OS / Editor junk ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (GoLand/IntelliJ)
+.idea/
+*.iml
+out/
+
+# Vim / Swap
+*.swp
+*.swo
+*~
+materials/
+
+# === Logs ===
+*.log
+logs/
+log/
+
+# === Build / Dist ===
+dist/
+build/
+target/
+bin/
+obj/
+out/
 TODO.md
+
+# === Temporary / Cache ===
+tmp/
+temp/
+.cache/
+.cache-loader/
+*.tmp
+
+# === Env / Secrets ===
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# === Go ===
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# === Java / Kotlin ===
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+
+# === Rust ===
+target/
+Cargo.lock
+
+# === Terraform ===
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# === Archives ===
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
